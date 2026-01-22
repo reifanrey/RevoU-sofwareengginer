@@ -12,7 +12,7 @@ h1 {
     margin-bottom: 18px;
 }
 
-.container {
+.container-todolist {
     background-color: rgba(64, 72, 106, 0.241);
     padding: 25px;
     border-radius: 8px;
@@ -20,10 +20,14 @@ h1 {
     box-shadow: 0 0 18px rgb(0, 60, 128);
 }
 
-.todo-Input, .todo-filter {
+.todo-Input, .todo-Filter {
     display: flex;
     gap: 10px;
     margin-bottom: 15px;
+}
+
+.todo-Filter {
+    justify-content: space-between;
 }
 
 input, select, button {
@@ -44,6 +48,15 @@ button {
     cursor: pointer;
 }
 
+#deleteAll-Btn:hover {
+    background-color: red;
+}
+
 button:hover {
     background-color: rgb(31, 31, 53);
+}
+
+.todo-Footer {
+    display: flex;
+    justify-content: center;
 }
