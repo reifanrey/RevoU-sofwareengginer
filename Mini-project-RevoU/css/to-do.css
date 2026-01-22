@@ -7,6 +7,43 @@ body {
     color: whitesmoke;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
 .container {
-    background-color: rgba(215, 215, 215, 0.241);
+    background-color: rgba(64, 72, 106, 0.241);
+    padding: 25px;
+    border-radius: 8px;
+    width: 600px;
+    box-shadow: 0 0 18px rgb(0, 60, 128);
+}
+
+.todo-Input, .todo-filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input, select, button {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+}
+
+input, select {
+    background-color: rgb(14, 14, 34);
+    color: whitesmoke;
+}
+
+button {
+    background-color: rgb(86, 86, 255);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(31, 31, 53);
 }
