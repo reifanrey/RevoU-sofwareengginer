@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 80px;
     color: whitesmoke;
 }
 
@@ -13,11 +13,24 @@ h1 {
 }
 
 .container-todolist {
-    background-color: rgba(64, 72, 106, 0.241);
-    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.179);
+    padding: 2px 25px 25px 25px ;
     border-radius: 8px;
     width: 600px;
-    box-shadow: 0 0 18px rgb(0, 60, 128);
+    box-shadow: 0 0 18px rgb(18, 121, 239);
+}
+
+#todoDate {
+    width: 45%;
+}
+
+#todoText {
+    width: 45%;
+}
+
+#addBtn {
+    font-size: 17px;
+    width: 10%;
 }
 
 .todo-Input, .todo-Filter {
@@ -27,12 +40,13 @@ h1 {
 }
 
 .todo-Filter {
+    padding-top: 15px;
     justify-content: space-between;
 }
 
 input, select, button {
-    padding: 8px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 5px;
     border: none;
     font-size: 14px;
 }
@@ -43,20 +57,56 @@ input, select {
 }
 
 button {
+    font-size: 12px;
     background-color: rgb(86, 86, 255);
     color: whitesmoke;
     cursor: pointer;
 }
 
+#add-Btn:hover {
+    background-color: rgb(13, 148, 42);
+    color: rgb(14, 14, 34);
+    border-radius: 7px;
+}
+
+#filter-Btn {
+    background-color: rgb(42, 42, 66);
+}
+
 #deleteAll-Btn:hover {
     background-color: red;
+    padding: 9px;
+    border-radius: 7px;
+    color: rgb(14, 14, 34);
 }
 
-button:hover {
-    background-color: rgb(31, 31, 53);
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(14, 14, 34);
+    border-radius: 8px;
 }
 
-.todo-Footer {
+th, td {
+    padding: 10px;
+    font-size: 14px;
+}
+
+th {
+    text-align: left;
+    background-color: rgb(17, 17, 39);
+}
+
+td {
+    border-top: 1px solid rgb(27, 27, 62);
+}   
+
+.empty {
+    text-align: center;
+    color: rgb(100, 100, 139);
+}
+
+footer {
     display: flex;
     justify-content: center;
 }

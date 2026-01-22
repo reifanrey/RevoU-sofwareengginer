@@ -12,26 +12,41 @@
         <div class="container-todolist">
             <!-- Header Sectionn -->
             <header>
-                <h1>Todo-List Reifan REY</h1>
+                <h1><b>Todo-List Reifan REY</b></h1>
             </header>
 
             <!--Main Content Section-->
             <main>
                 <form class="todo-Input" id="todo-Form">
-                    <input id="todo-Text" type="text" placeholder="Add to do..." required>
-                    <input id="todo-Date" type="date" required>
-                    <button id="add-Btn" type="submit">+</button>
+                    <input id="todoText" type="text" placeholder="Add to do..." required>
+                    <input id="todoDate" type="date" required>
+                    <button id="addBtn" type="submit"><b>+</b></button>
                 </form>
                 <div class="todo-Filter">
-                    <!--<input id="filter-Dates" type="date">
+                    <input id="filter-Dates" type="date">
                     <select id="filter-Status">
                         <option value="">All</option>
                         <option value="pending">pending</option>
                         <option value="Done">Done</option>
-                    </select>-->
+                    </select>
                     <button id="filter-Btn">Filter</button>
                     <button id="deleteAll-Btn">Delete All</button>
-                </div>   
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Task</th>
+                            <th>Due Date</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4" class="empty">No task found</td>
+                        </tr>
+                    </tbody>
+                </table>   
             </main>
         </div>
 
