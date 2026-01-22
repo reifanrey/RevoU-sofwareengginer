@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(14, 14, 34);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    color: whitesmoke;
+}
+
+.container {
+    
+}
