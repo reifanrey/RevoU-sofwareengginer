@@ -73,7 +73,7 @@ button {
     background-color: rgb(42, 42, 66);
 }
 
-#deleteAll-Btn:hover {
+#deleteAllBtn:hover {
     background-color: red;
     padding: 9px;
     border-radius: 7px;
